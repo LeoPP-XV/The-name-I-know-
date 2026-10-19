@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ordo Studiorum｜哲學與神學自主研修</title>
+<meta name="description" content="哲學與神學自主研修學則暨課程規劃（第三版）：四年、46 學分的個人研修檔案。">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌿</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700&family=Noto+Sans+TC:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f2f5ef;--panel:#fff;--ink:#1d2a21;--mute:#5d6b61;--g:#3b6a47;--g2:#dfe9db;--gold:#a8842c;--line:#cfd9ca;
+--serif:"Noto Serif TC","Songti TC",serif;--sans:"Noto Sans TC","PingFang TC",sans-serif}
+@media(prefers-color-scheme:dark){:root{--bg:#141b16;--panel:#1c261f;--ink:#e6ede7;--mute:#9db0a2;--g:#7fb58c;--g2:#243228;--gold:#d2b15a;--line:#2f3f33}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.8 var(--sans)}
+a{color:var(--g)}:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+header.hero{padding:56px 20px 36px;max-width:960px;margin:auto}
+.latin{font-family:var(--serif);font-size:clamp(34px,8vw,64px);line-height:1.1;margin:0;letter-spacing:.01em}
+.latin i{color:var(--gold);font-weight:500}
+h1.zh{font:700 clamp(20px,4vw,28px)/1.4 var(--serif);margin:12px 0 4px}
+.sub{color:var(--mute);margin:0}
+.meter{margin-top:26px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.bar{height:10px;background:var(--g2);border-radius:99px;overflow:hidden;margin-top:8px}
+.bar b{display:block;height:100%;width:0;background:var(--g);transition:width .4s}
+nav{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);overflow-x:auto;white-space:nowrap}
+nav div{max-width:960px;margin:auto;padding:0 12px}
+nav a{display:inline-block;padding:12px 12px;text-decoration:none;color:var(--ink);font-weight:500}
+nav a:hover{color:var(--g)}
+main{max-width:960px;margin:auto;padding:8px 20px 80px}
+section{padding-top:40px}
+h2{font:700 24px/1.4 var(--serif);margin:0 0 6px}
+h3{font:700 18px/1.5 var(--serif);margin:0}
+.lead{color:var(--mute);margin:0 0 18px}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.box p{margin:4px 0 0;color:var(--mute);font-size:15px}
+.box .t{font-weight:500}
+details{background:var(--panel);border:1px solid var(--line);border-radius:10px;margin-bottom:10px}
+summary{cursor:pointer;padding:14px 16px;list-style:none;display:flex;gap:10px;align-items:center;justify-content:space-between}
+summary::-webkit-details-marker{display:none}
+summary small{color:var(--mute);white-space:nowrap}
+details[open] summary{border-bottom:1px solid var(--line)}
+.inner{padding:6px 16px 14px}
+.course{display:flex;gap:10px;padding:10px 0;border-bottom:1px dashed var(--line)}
+.course:last-child{border:0}
+.course input{width:20px;height:20px;margin-top:5px;accent-color:var(--g);flex:none}
+.code{font:700 14px var(--serif);color:var(--gold);margin-right:6px}
+.course p{margin:0;color:var(--mute);font-size:15px}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--mute);font-weight:500;width:5.5em}
+.tablewrap{overflow-x:auto}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;white-space:pre-wrap;font:15px/1.9 var(--sans);margin:0 0 10px}
+button{font:500 15px var(--sans);background:var(--g);color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+button.alt{background:transparent;color:var(--g);border:1px solid var(--g)}
+.fall{columns:2 260px;gap:20px;margin:0;padding-left:1.2em}
+.fall li{break-inside:avoid;margin-bottom:6px}
+footer{max-width:960px;margin:auto;padding:0 20px 60px;color:var(--mute);font-size:14px}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <p class="latin">Ordo Studiorum<br><i>Philosophiae et Theologiae</i></p>
+  <h1 class="zh">哲學與神學自主研修學則暨課程規劃</h1>
+  <p class="sub">第三版｜四年・每週三至四小時・個人自主研修，非正式學制 🌿</p>
+  <div class="meter" aria-live="polite">
+    <div><b id="done">0</b> / 46 自主研修學分（約 <span id="hrs">0</span> / 690 小時）</div>
+    <div class="bar"><b id="fill"></b></div>
+  </div>
+</header>
+<nav aria-label="頁內導覽"><div>
+  <a href="#rule">學則</a><a href="#courses">四年課程</a><a href="#weekly">每週制度</a><a href="#args">論證方法</a><a href="#syllabus">逐週課綱</a><a href="#thesis">論文</a>
+</div></nav>
+<main>
+
+<section id="rule">
+  <h2>學則要點</h2>
+  <p class="lead">宗旨：培養概念分析、論證、反駁與獨立研究能力，在天主教信仰脈絡中促進理性與信仰的對話。</p>
+  <div class="grid">
+    <div class="box"><div class="t">學分換算</div><p>15 小時有效研修 = 1 個自主研修學分。須有可辨認的成果，單純翻書不算。</p></div>
+    <div class="box"><div class="t">七步程序</div><p>提問 → 界定概念 → 重建主張 → 檢查推論 → 提出異議 → 暫定結論 → 札記。</p></div>
+    <div class="box"><div class="t">評量比例</div><p>札記 20%・論證分析 25%・反駁回應 20%・期末成果 30%・倫理引用 5%。70 分為完成門檻。</p></div>
+    <div class="box"><div class="t">學術倫理</div><p>忠實呈現對手立場；引用須可查證；AI 只作輔助，原文與事實必須自己核對。</p></div>
+    <div class="box"><div class="t">信仰與理性</div><p>分辨教會正式教導、神學家意見、歷史假說與個人推測，不混淆各學科的證成方式。</p></div>
+    <div class="box"><div class="t">進度彈性</div><p>連續兩週卡關就減量或補入門材料，不趕課。考試週可只留 30–45 分鐘。</p></div>
+  </div>
+</section>
+
+<section id="courses">
+  <h2>四年課程架構</h2>
+  <p class="lead">勾選已完成的課程，上方學分會自動累計（只存在這台裝置的瀏覽器）。</p>
+  <div id="stages"></div>
+  <button class="alt" id="reset" type="button">清除進度</button>
+</section>
+
+<section id="weekly">
+  <h2>每週研修制度</h2>
+  <p class="lead">每週約 3 小時；作業較重時增至 4 小時。</p>
+  <div class="tablewrap"><table>
+    <tr><th>A・45 分</th><td>基礎／邏輯：讀導論、辨認前提與結論、重建論證</td></tr>
+    <tr><th>B・60 分</th><td>核心課程：本體論、形上學或當期主題</td></tr>
+    <tr><th>C・45 分</th><td>神學／跨領域：記錄不同方法的界線</td></tr>
+    <tr><th>D・30 分</th><td>研究札記：整理概念、畫論證圖、寫疑問與下週任務</td></tr>
+  </table></div>
+  <h3 style="margin:22px 0 8px">每週研究札記格式</h3>
+  <pre id="tpl">本週問題：
+閱讀材料與章節：
+核心概念（三至五個）：
+作者的主要結論：
+論證標準形式（前提一、前提二……結論）：
+我認為最有力的一個理由：
+最強反對意見／反例：
+我的回應或需要修正之處：
+仍未解決的問題：
+下週最小可完成任務：</pre>
+  <button id="copy" type="button">複製札記模板</button> <span id="copied" aria-live="polite"></span>
+  <h3 style="margin:22px 0 8px">每四週回顧</h3>
+  <ul>
+    <li>能否不照抄地解釋本月核心概念？</li>
+    <li>能否把作者的論證重建成清楚的前提與結論？</li>
+    <li>是否提出過真正針對前提或推論的反對意見？</li>
+    <li>哪些材料太難、太簡單？下月要減量、重讀、換導讀，還是推進？</li>
+  </ul>
+</section>
+
+<section id="args">
+  <h2>論證方法專編</h2>
+  <p class="lead">兩層檢查：理由是否真的支持結論？理由本身是否可接受？</p>
+  <div class="grid" id="argcards"></div>
+  <details style="margin-top:14px"><summary><h3>常見謬誤與診斷</h3><small>14 項</small></summary>
+    <div class="inner"><ul class="fall" id="fall"></ul>
+    <p class="lead">指出謬誤名稱不是終點：要說明錯在哪一步，以及是否真的削弱了結論。</p></div></details>
+  <details><summary><h3>提交前檢核表</h3><small>12 問</small></summary>
+    <div class="inner"><ul id="check"></ul></div></details>
+</section>
+
+<section id="syllabus">
+  <h2>逐週課綱</h2>
+  <p class="lead">第一年上學期的三門課，各 12 週。</p>
+  <div id="weeks"></div>
+</section>
+
+<section id="thesis">
+  <h2>獨立研究論文</h2>
+  <p class="lead">PH406・4 學分・約 3,000–5,000 字。</p>
+  <ul>
+    <li>題目與研究問題（不要過大）</li><li>研究範圍與定義</li><li>背景與文獻整理</li>
+    <li>核心論證（前提、推論、結論）</li><li>至少一個有力的反對意見</li><li>回應與修正</li>
+    <li>結論與限制</li><li>引用書目</li>
+  </ul>
+</section>
+</main>
+<footer>
+  <p>本頁為個人自主研修草案，不屬任何大學正式學制，不授予官方學分或資格。課程名稱參考輔仁大學哲學系資料與 2026 年神學院課程規劃。</p>
+  <p>Leo T. R. H. Huang・XIX Octobris MMXXVI 🌿</p>
+</footer>
+
+<script>
+const STAGES=[
+{n:"第一階段　哲學基礎與論證入門",h:135,g:"先求清楚，不求一次讀完大量艱深原典。",c:[
+["PH101","哲學概論",2,"哲學問題、分科、哲學史導論、與科學／神學的關係"],
+["PH102","基礎理則學與論證方法",2,"前提與結論、演繹與歸納、有效性與健全性、謬誤、反駁"],
+["PH103","西洋哲學史導論",2,"古希臘、中世紀、近代、康德以後與當代脈絡"],
+["PH104","哲學閱讀與寫作",1,"摘要、概念分析、段落論證、引用與短論文"],
+["PH105","中國哲學導論",1,"儒、道及其他傳統的基本問題與文本"],
+["TH101","天主教神學導論",1,"啟示、信仰與理性、聖經、傳統、教會訓導"]]},
+{n:"第二階段　一般形上學、本體論與知識論",h:150,g:"核心成果：本體論概念圖、原典分析。",c:[
+["PH201","一般形上學",2,"存在、實體、性質、因果、可能性與必然性"],
+["PH202","本體論導論",2,"存在與存在者、具體與抽象、個體與普遍者、依存"],
+["PH203","知識論",2,"知識、信念、證成、懷疑、證據與真理"],
+["PH204","自然哲學",1,"自然、變化、運動、時間、因果與科學解釋"],
+["PH205","古典形上學原典",2,"節選亞里斯多德與中世紀經院哲學文本"],
+["PH206","模態與同一性",1,"可能／必然、跨時間同一、個體化與反例測試"]]},
+{n:"第三階段　心靈哲學、倫理學與神學導論",h:180,g:"核心成果：心靈／倫理／神學比較報告。",c:[
+["PH301","心靈哲學",2,"意識、意向性、記憶、身心關係與人格同一性"],
+["PH302","哲學人學",1,"人的存在、自由、理性、身體性與關係性"],
+["PH303","倫理學",2,"善、義務、德性、意向、行為、後果與實踐推理"],
+["PH304","宗教哲學",2,"宗教語言、天主存在論證、惡的問題、宗教經驗"],
+["PH305","中國哲學進階",1,"選讀原典，比較不同思想傳統的問題意識"],
+["TH301","聖經與教會史導論",2,"歷史脈絡、文本類型、傳統發展與詮釋原則"],
+["TH302","基本神學與啟示論",2,"啟示、信仰行為、傳承、教會訓導與神學方法"]]},
+{n:"第四階段　進階本體論、經院哲學與獨立研究",h:225,g:"以研究問題為中心，不再只是依序讀書目。",c:[
+["PH401","進階本體論",2,"依存、根基、性質、事件、抽象對象"],
+["PH402","當代形上學",2,"因果、時間、模態、同一性與本體論承諾"],
+["PH403","經院哲學",2,"本質與存在、類比、因果、實體與天主論背景"],
+["PH404","當代哲學",1,"選一至兩位當代思想家，分析問題與方法"],
+["TH401","信理神學導論",2,"天主論、基督論、三位一體、教會論"],
+["PH405","哲學與神學綜合研討",2,"比較哲學論證與神學方法，界定可對話與不可混同之處"],
+["PH406","獨立研究／論文",4,"約 3,000–5,000 字研究論文"]]}];
+const ARGS=[["論證是什麼","前提、結論、推論；先圈結論，再找理由，最後檢查連結。"],
+["演繹・歸納・溯因","寫作前先說明主張的是必然、較高機率，還是最佳解釋。"],
+["有效性與健全性","有效是形式關係；健全還要前提為真。"],
+["概念與隱含前提","先給工作定義；補出最小且合理的隱含前提。"],
+["必要與充分條件","A→B 是充分；B→A 是必要；「當且僅當」要檢查兩個方向。"],
+["反例與反駁","先公平重述最強反對意見，再回應或修正主張。"],
+["謬誤診斷","指出錯在哪一步，以及是否真的削弱結論。"],
+["書寫格式","問題→定義→標準形式→前提→推論→反對→回應→暫定判斷。"]];
+const FALL=["人身攻擊","稻草人","訴諸多數","訴諸權威失當","循環論證","假兩難","滑坡論證","合成／分割謬誤","概念偷換","肯定後件","否定前件","以偏概全","錯置舉證責任","因果混淆"];
+const CHECK=["我是否用一句話說清楚結論？","是否列出主要前提？","前提是否有理由，而非重述結論？","推論是演繹、歸納、溯因，還是混合？","演繹是否有效？非演繹的支持強度如何？","關鍵詞是否前後一致？","有無隱含前提、未說明範圍或偷換概念？","有沒有認真處理最強反例？","是否區分對方主張與自己的詮釋？","引用與事實是否已核查？","結論是否超過證據所能支持？","新理由出現時，我願意修正嗎？"];
+const WEEKS=[
+["PH101　哲學概論",["哲學在做什麼？","哲學問題與日常問題","哲學與科學","哲學與神學","形上學與本體論","知識論","邏輯與論證","倫理學","心靈哲學","西洋哲學史鳥瞰","中國哲學與比較","整合與期末短文（800–1,200 字）"]],
+["PH102　基礎理則學與論證方法",["論證的構成","命題與語句","演繹推理","有效性與健全性","歸納推理","溯因推理","必要與充分條件","隱含前提與概念界定","常見謬誤","反例與反駁","反對意見與回應","期末論證分析（800–1,200 字）"]],
+["PH201　一般本體論導論",["本體論是什麼","存在與存在者","實在與存在","具體與抽象","實體與性質","本質與偶性","個體與普遍者","部分與整體","關係與依存","同一性","本體論承諾","短論文（1,000–1,500 字）"]]];
+
+const $=s=>document.querySelector(s);
+let st={};try{st=JSON.parse(localStorage.getItem("ordo")||"{}")}catch(e){}
+function save(){try{localStorage.setItem("ordo",JSON.stringify(st))}catch(e){}}
+function tally(){let cr=0;STAGES.forEach(s=>s.c.forEach(c=>{if(st[c[0]])cr+=c[2]}));
+$("#done").textContent=cr;$("#hrs").textContent=cr*15;$("#fill").style.width=(cr/46*100)+"%";
+STAGES.forEach((s,i)=>{const d=s.c.filter(c=>st[c[0]]).reduce((a,c)=>a+c[2],0),t=s.c.reduce((a,c)=>a+c[2],0);$("#p"+i).textContent=d+" / "+t+" 學分"})}
+function build(){
+$("#stages").innerHTML=STAGES.map((s,i)=>`<details ${i==0?"open":""}><summary><h3>${s.n}</h3><small id="p${i}"></small></summary><div class="inner"><p class="lead">${s.g}（${s.h} 小時）</p>${s.c.map(c=>`<label class="course"><input type="checkbox" data-k="${c[0]}" ${st[c[0]]?"checked":""}><span><span class="code">${c[0]}</span><b>${c[1]}</b>（${c[2]} 學分）<p>${c[3]}</p></span></label>`).join("")}</div></details>`).join("");
+$("#argcards").innerHTML=ARGS.map(a=>`<div class="box"><div class="t">${a[0]}</div><p>${a[1]}</p></div>`).join("");
+$("#fall").innerHTML=FALL.map(f=>`<li>${f}</li>`).join("");
+$("#check").innerHTML=CHECK.map(f=>`<li>${f}</li>`).join("");
+$("#weeks").innerHTML=WEEKS.map((w,i)=>`<details ${i==0?"open":""}><summary><h3>${w[0]}</h3><small>12 週</small></summary><div class="inner tablewrap"><table>${w[1].map((t,j)=>`<tr><th>第 ${j+1} 週</th><td>${t}</td></tr>`).join("")}</table></div></details>`).join("");
+document.querySelectorAll(".course input").forEach(el=>el.addEventListener("change",()=>{st[el.dataset.k]=el.checked;save();tally()}));
+tally()}
+$("#copy").addEventListener("click",async()=>{try{await navigator.clipboard.writeText($("#tpl").textContent);$("#copied").textContent="已複製"}catch(e){$("#copied").textContent="請手動選取複製"}});
+$("#reset").addEventListener("click",()=>{if(confirm("確定清除所有勾選的進度？")){st={};save();build()}});
+build();
+</script>
+</body>
+</html>
